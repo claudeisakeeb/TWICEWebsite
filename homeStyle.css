@@ -115,9 +115,9 @@
 }
 
 .dropdown{
-    position: absolute;
     display: inline-block;
     margin-top: -.5%;
+    margin-left: 0.25%;
 }
 
 .dropdown-content{
@@ -147,7 +147,10 @@
 .dropdown:hover .dropdown-content{
     display: block;
 }
+
+/* directly control navigation bar */
 .nav{
     float:right; 
+    padding-right: 0.25%;
     margin-top: 0%;  
 }
