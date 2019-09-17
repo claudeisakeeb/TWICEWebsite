@@ -20,7 +20,7 @@ h1, h2, p{
 
 .container:hover .text{
    display: block;
-   background: rgba(0, 0, 0, .6);
+   background: rgba(0, 0, 0, .7);
 }
 
 .container .text{
@@ -34,6 +34,7 @@ h1, h2, p{
   text-align: center;
   padding-top: 10px;
   font-family: "courier";
+  font-size: 20px;
 }
 
 ul li a{
@@ -41,6 +42,10 @@ ul li a{
     text-decoration: none;
 }
 
+a{
+    color: white;
+    text-decoration: underline;
+}
 ul{
     list-style-type: none;
 }
@@ -51,3 +56,64 @@ td, th{
     #padding: 3px;
 }
 
+#pagetwo{
+    margin-left: 958px;
+}
+
+#twicecoaster1{
+    margin-top: 958px;
+}
+
+#twicecoaster2{
+    margin-top: 958px;
+    margin-left: 958px;
+}
+
+#signal{
+    margin-top:1916px;
+}
+
+#hstwice{
+    margin-top: 1916px;
+    margin-left: 958px;
+}
+
+#twicetagram{
+    margin-top: 2874px;
+}
+
+#merryandhappy{
+    margin-top: 2874px;
+    margin-left: 958px;
+}
+
+#whatislove{
+    margin-top:3832px;
+}
+
+#summernights{
+    margin-top:3832px;
+    margin-left: 958px;
+}
+
+#bdz{
+    margin-top: 4785px;
+}
+
+#yesoryes{
+    margin-top: 4785px;
+    margin-left: 958px;
+}
+
+#theyearofyes{
+    margin-top: 5742px;
+}
+
+#bdzre{
+    margin-top: 5742px;
+    margin-left: 958px;
+}
+
+#fancyyou{
+    margin-top: 6700px;
+}
