@@ -4,6 +4,83 @@
     padding: 0;
 }
 
+nav{
+    background-color:  transparent;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+}
+
+.container img{
+  animation-name: fade;
+  animation-duration: 4s;  
+}
+
+.text .links{
+    float: right;
+    background-color: black;
+    padding: 9px;
+}
+
+.dropdown{
+    display: inline-block;
+    background-color: black;
+}
+
+.dropbtn{  
+    background-color: rgba(0,0,0);
+    color:white;
+    padding: 9px;
+    font-size: 30px;
+    border: none;
+    font-family: courier;
+    z-index: 999;
+}
+
+.dropdown-content{
+    display: none;
+    position: relative;
+    background-color:rgba(0,0,0);
+    min-width: 300px;
+    z-index: 999;
+}
+
+.dropdown:hover .dropdown-content{
+    display: inline;
+}
+
+.dropdown-content a:hover{
+    background-color:rgba(255,255,255, 0.5);
+}
+
+.text{
+    z-index: 999;
+    opacity: 100;
+    font-family: courier;
+    position:relative;
+    margin-top: 0%;
+}
+
+.dropdown-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.links li{
+    display:inline;
+}
+
+.links a{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}
+
 body{
     background-color: black;
 }
@@ -56,8 +133,13 @@ td, th{
     #padding: 3px;
 }
 
+#theStoryBegins{
+    margin-top: 53px;    
+}
+
 #pagetwo{
     margin-left: 958px;
+    margin-top: 53px;
 }
 
 #twicecoaster1{
@@ -121,4 +203,10 @@ td, th{
 #feelspecial{
     margin-top: 6700px;
     margin-left: 958px;
+}
+
+@keyframes fade{
+    0% {opacity: 0}
+    50% {opacity: 1}
+    100% {opacity: 1}
 }
