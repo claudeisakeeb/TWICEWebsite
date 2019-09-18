@@ -105,13 +105,15 @@ h1, h2, p{
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 99%;
   display: none;
   color: #FFF;
   text-align: center;
   padding-top: 10px;
   font-family: "courier";
   font-size: 20px;
+  animation-name: fade;
+  animation-duration: 1s;
 }
 
 ul li a{
@@ -134,74 +136,74 @@ td, th{
 }
 
 #theStoryBegins{
-    margin-top: 53px;    
+    margin-top: 52px;    
 }
 
 #pagetwo{
     margin-left: 958px;
-    margin-top: 53px;
+    margin-top: 52px;
 }
 
 #twicecoaster1{
-    margin-top: 958px;
+    margin-top: 1010px;
 }
 
 #twicecoaster2{
-    margin-top: 958px;
+    margin-top: 1010px;
     margin-left: 958px;
 }
 
 #signal{
-    margin-top:1916px;
+    margin-top:1968px;
 }
 
 #hstwice{
-    margin-top: 1916px;
+    margin-top: 1968px;
     margin-left: 958px;
 }
 
 #twicetagram{
-    margin-top: 2874px;
+    margin-top: 2926px;
 }
 
 #merryandhappy{
-    margin-top: 2874px;
+    margin-top: 2926px;
     margin-left: 958px;
 }
 
 #whatislove{
-    margin-top:3832px;
+    margin-top:3884px;
 }
 
 #summernights{
-    margin-top:3832px;
+    margin-top:3884px;
     margin-left: 958px;
 }
 
 #bdz{
-    margin-top: 4785px;
+    margin-top: 4842px;
 }
 
 #yesoryes{
-    margin-top: 4785px;
+    margin-top: 4842px;
     margin-left: 958px;
 }
 
 #theyearofyes{
-    margin-top: 5742px;
+    margin-top: 5800px;
 }
 
 #bdzre{
-    margin-top: 5742px;
+    margin-top: 5800px;
     margin-left: 958px;
 }
 
 #fancyyou{
-    margin-top: 6700px;
+    margin-top: 6757px;
 }
 
 #feelspecial{
-    margin-top: 6700px;
+    margin-top: 6757px;
     margin-left: 958px;
 }
 
