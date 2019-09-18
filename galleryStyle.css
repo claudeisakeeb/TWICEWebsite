@@ -1,1 +1,97 @@
+body{
+  margin: 0;
+  padding: 0;
+}
 
+/*Global*/
+.container{
+  width: 100%;
+  margin: auto;
+  font-family: courier;
+  overflow: hidden;
+}
+
+/*Main Nav*/
+.main-nav{
+  background-color: white;
+  min-height: 50px;
+  margin-bottom: 10px;
+}
+
+.main-nav #menu{
+  list-style-type: none;
+  display: inline;
+  float: right;
+  margin-top: 15px;
+}
+
+.main-nav #menu a{
+  font-family: courier;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+.main-nav #menu li{
+  display: inline;
+}
+
+.main-nav #branding{
+  float: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 30px;
+}
+
+/* BANNER */
+
+:root{
+  --width: 100%;
+  --height: calc(2160px*(var(--width)/3840px));
+}
+
+#banner{
+  width: 100%;
+  background:url(banner.png) no-repeat;
+  min-height: 200px;
+  text-align: center;
+  margin: auto;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+#banner .bannerlabel{
+  font-size: 50px;
+  font-family: courier;
+  margin-top: 75px;
+  color: white;
+  opacity: 1;
+}
+
+/* PICTURES */
+#pictures .b .buttons{
+  min-width: 190px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid black;
+  display: block;
+  font-family: courier;
+  margin: 5px;
+  font-size: 30px;
+}
+
+#pictures .member{
+  display: none;
+}
+
+#pictures img{
+  margin: 5px;
+  float: right;
+}
+
+.member img{
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}

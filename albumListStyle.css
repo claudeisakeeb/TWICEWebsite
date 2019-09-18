@@ -20,6 +20,7 @@ nav{
     float: right;
     background-color: black;
     padding: 9px;
+
 }
 
 .dropdown{
@@ -97,7 +98,7 @@ h1, h2, p{
 
 .container:hover .text{
    display: block;
-   background: rgba(0, 0, 0, .7);
+   background: rgba(0, 0, 0, .8);
 }
 
 .container .text{
