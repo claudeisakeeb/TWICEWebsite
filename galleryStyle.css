@@ -28,8 +28,7 @@ body{
 .main-nav #menu a{
   font-family: courier;
   text-decoration: none;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
   font-size: 25px;
 }
 
@@ -37,6 +36,9 @@ body{
   display: inline;
 }
 
+.main-nav #menu a:hover{
+  border: 1px solid black;
+}
 .main-nav #branding{
   float: left;
   margin-top: 15px;
@@ -73,12 +75,18 @@ body{
 #pictures .b .buttons{
   min-width: 255px;
   padding: 10px;
-  background: transparent;
+  background: white;
   border: 1px solid black;
   display: block;
   font-family: courier;
   margin: 5px;
   font-size: 30px;
+  text-transform: uppercase;
+  transition: 0.3s all ease;
+}
+
+#pictures .b .buttons:hover{
+  color: white;
 }
 
 #pictures .member{
@@ -94,4 +102,46 @@ body{
   width: 400px;
   height: 400px;
   object-fit: cover;
+}
+
+/*MEMBER BUTTON HOVERS*/
+#pictures .b #nayeon:hover{
+  background: #5BDBF5;
+}
+
+#pictures .b #jeongyeon:hover{
+  background: #C4FF32;
+}
+
+#pictures .b #momo:hover{
+  background: #EC69F4;
+}
+
+#pictures .b #sana:hover{
+  background: #AC14B1;
+}
+
+#pictures .b #jihyo:hover{
+  background: #fbceb1;
+}
+
+#pictures .b #mina:hover{
+  background: #54F5A7;
+}
+
+#pictures .b #dahyun:hover{
+  background: white;
+  color: black;
+}
+
+#pictures .b #chaeyoung:hover{
+  background: #F76253;
+}
+
+#pictures .b #tzuyu:hover{
+  background: #5A76F3;
+}
+
+#pictures .b #ot9:hover{
+  background: linear-gradient(to bottom right, #FF2965, #fbceb1);
 }
