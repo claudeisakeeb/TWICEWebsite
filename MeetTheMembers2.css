@@ -1,21 +1,23 @@
 body{
   margin: 0;
   padding: 0px;
+  background: linear-gradient(#fe97a4, #fccfa6);
 }
 
 :root{
   --width: 50%;
-  --height: calc(800px*(var(--width)/1200px));
 }
 
 /* NAV BAR */
 #nav-bar{
-    font-family: courier;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
     width: 100%;
     height: 65px;
     padding: 0;
     margin: 0;
     border-bottom: 1px solid black;
+    background-color: white;
 }
 
 #nav-bar #logo{
@@ -42,12 +44,16 @@ body{
   text-decoration: none;
 }
 /*PICTURES GLOBAL */
+
+table{
+  position: relative;
+}
+
 #members{
   width: 100%;
-  font-family: courier;
+  font-family:  "Montserrat", sans-serif;
   position: relative;
   padding-top: 16px;
-  display: table;
 }
 
 #members .name{
@@ -55,22 +61,31 @@ body{
 }
 
 #members .text{
+  margin-top: -30px;
   text-align: center;
-  vertical-align: top;
   width: var(--width);
+  height: var(--height);
+}
+
+#members .sec{
+  padding-top: 15px;
+}
+
+#members .text li{
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #members .desc{
-  font-size: 20px;
+  font-size: 17px;
 }
 
 #members img{
   width: var(--width);
-  height: var(--height);
-  position: absolute;
-  animation: fade 27s infinite;
-  opacity: 0;
-  float: left;
+  position: relative;
+  border-radius: 50%;
+  /*animation: fade 27s infinite;
+  opacity: 0;*/
 }
 
 @keyframes fade{
@@ -123,15 +138,13 @@ body{
 }
 
 /* NAYEON */
-
 #nayeon img{
   margin-top: -16px;
+  float: left;
 }
 
 #nayeon .text{
   float: right;
-  position: relative;
-  height: calc(800px*(var(--width)/1200px));
 }
 
 /* JEONGYEON */
@@ -139,10 +152,101 @@ body{
   clear: both;
 }
 
+#jeongyeon .text{
+  float: left;
+}
+
 #jeongyeon img{
   float: right;
 }
-#jeongyeon .text{
+
+/*MOMO*/
+#momo{
+  clear: both;
+}
+
+#momo img{
   float: left;
-  padding-top: 10px;
+}
+
+#momo .text{
+  float: right;
+}
+
+/* SANA */
+#sana{
+  clear: both;
+}
+
+#sana img{
+  float: right;
+}
+
+#sana .text{
+  float: left;
+}
+
+/*JIHYO*/
+#jihyo{
+  clear: both;
+}
+
+#jihyo img{
+  float: left;
+}
+
+#jihyo .text{
+  float: right;
+}
+
+/*MINA*/
+#mina{
+  clear: both;
+}
+
+#mina img{
+  float: right;
+}
+
+#mina .text{
+  float: left;
+}
+
+/*DAHYUN*/
+#dahyun{
+  clear: both;
+}
+
+#dahyun img{
+  float: left;
+}
+
+#dahyun .text{
+  float: right;
+}
+
+/*CHAEYOUNG*/
+#chaeyoung{
+  clear: both;
+}
+
+#chaeyoung img{
+  float: right;
+}
+
+#chaeyoung .text{
+  float: left;
+}
+
+/*TZUYU*/
+#tzuyu{
+  clear: both;
+}
+
+#tzuyu img{
+  float: left;
+}
+
+#tzuyu .text{
+  float: right;
 }
