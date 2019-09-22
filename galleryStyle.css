@@ -37,7 +37,7 @@ body{
 }
 
 .main-nav #menu a:hover{
-  border: 1px solid black;
+  color: blue;
 }
 .main-nav #branding{
   float: left;

@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  padding: 0px;
+}
+
+/* NAV BAR */
+#nav-bar{
+    font-family: courier;
+    width: 100%;
+    height: 65px;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid black;
+}
+
+#nav-bar #logo{
+  float: left;
+  padding-left: 20px;
+  margin-top: -20px;
+  font-size: 30px;
+  padding-top: 5px;
+}
+
+#nav-bar #links-nav{
+  float: right;
+}
+
+
+#nav-bar #links li{
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+}
+
+#nav-bar #links a{
+  text-decoration: none;
+}
+/*PICTURES GLOBAL */
+#members{
+  width: 100%;
+  font-family: courier;
+}
+
+#members .name{
+  font-size: 30px;
+}
+
+#members .text{
+  text-align: center;
+}
+
+#members .desc{
+  font-size: 20px;
+}
+
+#members img{
+  width: 50%;
+  position: cover;
+}
+
+#members ul{
+  display: block;
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* NAYEON */
+#nayeon img{
+  margin-top: -16px;
+  position: relative;
+  float: left;
+  clear: left;
+  height: calc(514px*(var(--width)/914px));
+}
+
+/* JEONGYEON */
+#jeongyeon img{
+  float: right;
+  clear: left;
+}
+
+#jeongyeon .text{
+  clear: left;
+  padding-top: 10px;
+}
