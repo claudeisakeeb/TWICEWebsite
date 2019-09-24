@@ -52,6 +52,10 @@ button{
   float: left;
   width: 11.11%;
   background: white;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 0;
   padding: 10px 0px;
   font-size: 15px;
 }
