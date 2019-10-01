@@ -13,8 +13,9 @@ body{
     padding: 0;
     margin: 0;
     border-bottom: 1px solid white;
-    background-color: rgba(0,0,0, 0.3);
+    background-color: rgba(0,0,0, 0.5);
     position: relative;
+    animation: descFade 4s;
 }
 
 #nav-bar #logo{
@@ -74,6 +75,7 @@ button{
   font-size: 15px;
   font-family: "Montserrat";
   color: white;
+  animation: descFade 4s;
 }
 
 button:hover{
@@ -136,6 +138,12 @@ button:hover{
   float: left;
   animation: fade 27s infinite;
   opacity: 0;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: -46%;
+  bottom: 0;
+  border: 3px solid white;
 }
 
 #desc .text{
@@ -242,4 +250,5 @@ button:hover{
   margin-top: 300px;
   z-index: 3;
   color: white;
+  animation: descFade 4s;
 }
