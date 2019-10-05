@@ -13,7 +13,7 @@ nav{
 
 .container img{
   animation-name: fade;
-  animation-duration: 4s;  
+  animation-duration: 4s;
 }
 
 .text .links{
@@ -28,7 +28,7 @@ nav{
     background-color: black;
 }
 
-.dropbtn{  
+.dropbtn{
     background-color: rgba(0,0,0);
     color:white;
     padding: 9px;
@@ -86,7 +86,7 @@ body{
     background-color: black;
 }
 .container{
-    position: absolute; 
+    position: absolute;
     width: 957px;
     height: 957px;
 }
@@ -137,7 +137,7 @@ td, th{
 }
 
 #theStoryBegins{
-    margin-top: 52px;    
+    margin-top: 52px;
 }
 
 #pagetwo{

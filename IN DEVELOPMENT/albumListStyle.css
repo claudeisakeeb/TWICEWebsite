@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:rgba(0,0,0,0.7);
+}
+
+#albums{
+  position: relative;
+}
+
+#albums img{
+  clear: both;
+  flex: 1;
+  width: 49%;
+  border: 1px solid black;
+}
+
+#albums .album{
+  display: flex;
+}
+
+#albums .text{
+  position: relative;
+  text-align: center;
+  float: left;
+  display: block;
+  padding-top: 20px;
+  flex: 2;
+  font-family: "Montserrat";
+  color: white;
+  border: 1px solid black;
+}
+
+
+#albums .heading{
+  font-size: 30px;
+}
+
+#albums #theStoryBegins{
+
+}
+
+/* TEXT */
+a{
+    text-decoration: underline;
+    color: #30e0ff;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    margin-right: 35px;
+}
+
+td, th{
+    border: 1px solid black;
+    text-align: left;
+}
