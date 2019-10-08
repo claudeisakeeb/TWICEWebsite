@@ -1,13 +1,52 @@
 body{
   margin: 0;
   padding: 0;
-  background-color:rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.7);
 }
 
-#albums{
-  position: relative;
+/* NAV BAR */
+#nav-bar{
+width: 100%;
+display: flex;
+height: 60px;
+font-size: 20px;
+font-family: "Montserrat";
+background-color: rgba(0,0,0,0.4);
 }
 
+#nav-bar ul{
+  margin-left: auto;
+  margin-top: 0;
+}
+
+#nav-bar li{
+  display: inline;
+  padding: 0px 15px;
+  line-height: 60px;
+}
+
+#nav-bar a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+#nav-bar p{
+  margin: 0px 0px 0px 15px;
+  line-height: 60px;
+  background:linear-gradient(to bottom right, #ff5fa2, #FCC89B);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+#nav-bar a:hover{
+  border: 1px solid white;
+}
+
+/* INDIVIDUAL ALBUMS */
 #albums img{
   clear: both;
   flex: 1;
@@ -24,7 +63,7 @@ body{
   text-align: center;
   float: left;
   display: block;
-  padding-top: 20px;
+  padding-top: 15px;
   flex: 2;
   font-family: "Montserrat";
   color: white;
@@ -33,7 +72,8 @@ body{
 
 
 #albums .heading{
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 #albums #theStoryBegins{
@@ -41,7 +81,7 @@ body{
 }
 
 /* TEXT */
-a{
+#albums a{
     text-decoration: underline;
     color: #30e0ff;
 }
